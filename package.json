@@ -15,7 +15,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "changelog": "lerna-changelog",
-    "publish": "lerna publish",
+    "publish": "lerna publish --pre-dist-tag next",
     "clean": "lerna clean",
     "update-deps": "bash ./.ci/update-packages.sh"
   },
